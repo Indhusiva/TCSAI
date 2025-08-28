@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "sku": "SKU-123",
+      "todays_demand": 1000,
+      "agreed_splits": { "A": 0.30, "B": 0.40, "C": 0.30 },
+      "actual_splits": { "A": 0.50, "B": 0.25, "C": 0.25 },
+      "historical_allocations": { "A": 2000, "B": 1000, "C": 1000 },
+      "supplier_order_multiple": { "A": 1500, "B": 1500, "C": 1500 },
+      "procurement_calendar": { "A": 2, "B": 0, "C": 0 }
+    },
+    {
+      "sku": "SKU-XYZ",
+      "todays_demand": 450,
+      "agreed_splits": { "A": 0.4, "B": 0.4, "C": 0.2 },
+      "actual_splits": { "A": 0.38, "B": 0.45, "C": 0.17 },
+      "historical_allocations": { "A": 1000, "B": 700, "C": 600 },
+      "supplier_order_multiple": { "A": 60, "B": 40, "C": 30 },
+      "procurement_calendar": { "A": 2, "B": 2, "C": 0 }
+    },
+    {
+      "sku": "SKU-TEST",
+      "todays_demand": 200,
+      "agreed_splits": { "X": 0.5, "Y": 0.5 },
+      "actual_splits": { "X": 0.45, "Y": 0.55 },
+      "historical_allocations": { "X": 500, "Y": 600 },
+      "supplier_order_multiple": { "X": 25, "Y": 25 },
+      "procurement_calendar": { "X": 2, "Y": 2 }
+    }
+     {
+      "sku": "SKU-TEST",
+      "todays_demand": 200,
+      "agreed_splits": { "X": 0.4, "Y": 0.6 },
+      "actual_splits": { "X": 0.45, "Y": 0.55 },
+      "historical_allocations": { "X": 500, "Y": 600 },
+      "supplier_order_multiple": { "X": 25, "Y": 25 },
+      "procurement_calendar": { "X": 2, "Y": 2 }
+    }
+  ]
+}
